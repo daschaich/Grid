@@ -12,7 +12,6 @@ CCFILES=`find . -name '*.cc' -not -path '*/instantiation/*/*' -not -path '*/gamm
 ZWILS_FERMION_FILES=` find . -name '*.cc' -path '*/instantiation/*' -path '*/instantiation/ZWilsonImpl*' `
 WILS_FERMION_FILES=`  find . -name '*.cc' -path '*/instantiation/*' -path '*/instantiation/WilsonImpl*' `
 STAG_FERMION_FILES=`  find . -name '*.cc' -path '*/instantiation/*' -path '*/instantiation/Staggered*' `
-GP_FERMION_FILES=`    find . -name '*.cc' -path '*/instantiation/*' -path '*/instantiation/Gparity*' `
 ADJ_FERMION_FILES=`   find . -name '*.cc' -path '*/instantiation/*' -path '*/instantiation/WilsonAdj*' `
 TWOIND_FERMION_FILES=`find . -name '*.cc' -path '*/instantiation/*' -path '*/instantiation/WilsonTwoIndex*'`
 
@@ -24,7 +23,6 @@ echo CCFILES=$CCFILES >> Make.inc
 echo ZWILS_FERMION_FILES=$ZWILS_FERMION_FILES >> Make.inc
 echo WILS_FERMION_FILES=$WILS_FERMION_FILES   >> Make.inc
 echo STAG_FERMION_FILES=$STAG_FERMION_FILES   >> Make.inc
-echo GP_FERMION_FILES=$GP_FERMION_FILES   >> Make.inc
 echo ADJ_FERMION_FILES=$ADJ_FERMION_FILES   >> Make.inc
 echo TWOIND_FERMION_FILES=$TWOIND_FERMION_FILES   >> Make.inc
 
